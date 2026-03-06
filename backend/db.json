@@ -1,46 +1,52 @@
 {
   "projects": [
     {
-      "id": "9d6cca51-2336-460b-a825-8aabb272bba4",
-      "workerIds": [
-        "5e24df31-3bd7-45ba-9d8e-f43976477693",
-        "27ef3f7c-961b-495e-a33f-79650af298c0"
-      ],
+      "id": "c98662e1-7ccd-4d75-8eb3-7fb43d7ac527",
+      "workerIds": [],
       "name": "E-Shop",
       "client": "Pepito",
-      "startDate": "2026-03-13",
-      "endDate": "2026-03-30"
+      "startDate": "2026-03-12",
+      "endDate": "2026-04-14"
     },
     {
-      "id": "de41c84d-d5a3-4b31-986b-6154de762b01",
-      "workerIds": [
-        "5e24df31-3bd7-45ba-9d8e-f43976477693",
-        "27ef3f7c-961b-495e-a33f-79650af298c0"
-      ],
-      "name": "a",
-      "client": "b",
-      "startDate": "2026-03-06",
+      "id": "833d8fe1-daf9-491d-af71-0efaf563e325",
+      "workerIds": [],
+      "name": "Clon de Uber",
+      "client": "Felipe",
+      "startDate": "2026-03-14",
       "endDate": "2026-03-26"
+    },
+    {
+      "id": "a9ca879d-7297-4f87-9b2d-9afc0695d825",
+      "workerIds": [
+        "988b2edb-acbc-40da-859e-3cd3c9bc3d25",
+        "3fa8165d-c905-49a2-becc-0aacba435eb2",
+        "1bae925b-f462-4a57-b311-b5db80857ccd"
+      ],
+      "name": "McDonalds",
+      "client": "Jorge",
+      "startDate": "2026-03-06",
+      "endDate": "2026-03-20"
     }
   ],
   "workers": [
     {
-      "id": "5e24df31-3bd7-45ba-9d8e-f43976477693",
-      "name": "Jorgito",
+      "id": "988b2edb-acbc-40da-859e-3cd3c9bc3d25",
+      "name": "Alejandro",
       "role": "Frontend",
       "seniority": "junior"
     },
     {
-      "id": "27ef3f7c-961b-495e-a33f-79650af298c0",
-      "name": "Felipe",
-      "role": "Backend",
-      "seniority": "mid"
+      "id": "3fa8165d-c905-49a2-becc-0aacba435eb2",
+      "name": "Alonso",
+      "role": "Diseño",
+      "seniority": "junior"
     },
     {
-      "id": "8caa3632-3f13-4e08-b7e2-02fcc1bc8b51",
-      "name": "C",
-      "role": "D",
-      "seniority": "mid"
+      "id": "1bae925b-f462-4a57-b311-b5db80857ccd",
+      "name": "Martin",
+      "role": "Backend",
+      "seniority": "senior"
     }
   ]
 }
