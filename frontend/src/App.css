@@ -1,0 +1,157 @@
+button {
+  padding: 8px 10px;
+  font-size: 1.1em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 1vh 1vw;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.Manager {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 10vw;
+  margin-top: 10vh;
+  width: 100%;
+  max-width: 800px;
+  border: 2px solid black;
+  /* text-align: center; */
+  align-items: center;
+}
+
+.Pages {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+  gap: 30%
+}
+
+.ModalContainer {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.ModalContent {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  min-width: 400px;
+  min-height: 30vh;
+}
+
+.ProjectForm {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.ProjectForm label {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  font-size: 1.2em;
+}
+
+.ProjectForm input {
+  width: 95%;
+  padding: 8px 10px;
+  font-size: 1.1em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 2vh;
+}
+
+.ProjectForm button {
+  width: 50%;
+  padding: 8px 10px;
+  font-size: 1.1em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  justify-self: end;
+}
+
+.WorkerForm {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.WorkerForm label {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  font-size: 1.2em;
+}
+
+.WorkerForm input {
+  width: 95%;
+  padding: 8px 10px;
+  font-size: 1.1em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 2vh;
+}
+
+.WorkerForm button {
+  width: 50%;
+  padding: 8px 10px;
+  font-size: 1.1em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  justify-self: end;
+}
+
+.RadioGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  font-size: 1.2em;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 1vh 1vw;
+  margin: 0.5vh 0.5vw;
+}
+
+.AssignButton {
+  font-size: 1.1em;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  padding: 0.2vh 0.2vw;
+  transition: box-shadow 0.2s ease;
+}
+
+.AssignButton:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.AssignInfo {
+  font-size: 1.1em;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  padding: 0.3vh 1vw;
+  transition: box-shadow 0.2s ease;
+}
+
+.AssignInfo:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
